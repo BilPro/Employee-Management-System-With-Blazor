@@ -1,0 +1,59 @@
+﻿@page "/employeeform"
+@page "/employeeform/{id:int}"
+@using EmployeeManagementUI.Model
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<h3>@(isEdit ? "Edit Employee" : "Create Employee")</h3>
+
+<EditForm Model="employee" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label>Name:</label>
+        <InputText class="form-control" @bind-Value="employee.name" />
+    </div>
+    <div class="form-group">
+        <label>Email:</label>
+        <InputText class="form-control" @bind-Value="employee.email" />
+    </div>
+    <div class="form-group">
+        <label>Phone:</label>
+        <InputText class="form-control" @bind-Value="employee.phone" />
+    </div>
+    <div class="form-group">
+        <label>Department ID:</label>
+        <InputNumber class="form-control" @bind-Value="employee.departmentID" />
+    </div>
+    <div class="form-group">
+        <label>Hire Date:</label>
+        <InputDate class="form-control" @bind-Value="employee.hireDate" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</EditForm>
+
+@code {
+    [Parameter] public int? id { get; set; }
+    private Employee employee = new Employee();
+    private bool isEdit = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (id.HasValue)
+        {
+            isEdit = true;
+            employee = await Http.GetFromJsonAsync<Employee>($"api/employees/{id.Value}");
+        }
+    }
+
+    async Task HandleValidSubmit()
+    {
+        if (isEdit)
+            await Http.PutAsJsonAsync($"api/employees/{employee.employeeID}", employee);
+        else
+            await Http.PostAsJsonAsync("api/employees", employee);
+
+        NavigationManager.NavigateTo("/employees");
+    }
+}

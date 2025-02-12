@@ -1,0 +1,67 @@
+﻿@page "/missingattendance"
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<h3>Missing Attendance Requests</h3>
+<button class="btn btn-primary" @onclick="CreateMissingAttendance">Mark Missing Attendance</button>
+
+@if (requests == null)
+{
+    <p><em>Loading...</em></p>
+}
+else if (requests.Count == 0)
+{
+    <p>No missing attendance requests found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Request ID</th>
+                <th>Employee ID</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Approved By</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var req in requests)
+            {
+                <tr>
+                    <td>@req.requestID</td>
+                    <td>@req.employeeID</td>
+                    <td>@req.date.ToShortDateString()</td>
+                    <td>@req.status</td>
+                    <td>@req.approvedBy</td>
+                    <td>
+                        <button class="btn btn-sm btn-warning" @onclick="@(() => EditMissingAttendance(req.requestID))">Edit</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<MissingAttendanceRequest> requests = new List<MissingAttendanceRequest>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        requests = await Http.GetFromJsonAsync<List<MissingAttendanceRequest>>("api/missingattendancerequests");
+    }
+
+    void CreateMissingAttendance() => NavigationManager.NavigateTo("/missingattendanceform");
+
+    void EditMissingAttendance(int id) => NavigationManager.NavigateTo($"/missingattendanceform/{id}");
+
+    public class MissingAttendanceRequest
+    {
+        public int requestID { get; set; }
+        public int employeeID { get; set; }
+        public DateTime date { get; set; }
+        public string status { get; set; }
+        public int? approvedBy { get; set; }
+    }
+}

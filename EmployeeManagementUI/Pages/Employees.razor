@@ -1,0 +1,71 @@
+﻿@page "/employees"
+@using EmployeeManagementUI.Model
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+
+<h3>Employee List</h3>
+<button class="btn btn-primary" @onclick="CreateEmployee">Create New Employee</button>
+
+@if (employees == null)
+{
+    <p><em>Loading...</em></p>
+}
+else if (employees.Count == 0)
+{
+    <p>No employees found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Department</th>
+                <th>Hire Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in employees)
+            {
+                <tr>
+                    <td>@emp.employeeID</td>
+                    <td>@emp.name</td>
+                    <td>@emp.email</td>
+                    <td>@emp.department?.name</td>
+                    <td>@emp.hireDate.ToShortDateString()</td>
+                    <td>
+                        <button class="btn btn-sm btn-warning" @onclick="@(() => EditEmployee(emp.employeeID))">Edit</button>
+                        <button class="btn btn-sm btn-danger" @onclick="@(() => DeleteEmployee(emp.employeeID))">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Employee> employees = new List<Employee>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        employees = await Http.GetFromJsonAsync<List<Employee>>("api/employees");
+    }
+
+    void CreateEmployee() => NavigationManager.NavigateTo("/employeeform");
+
+    void EditEmployee(int id) => NavigationManager.NavigateTo($"/employeeform/{id}");
+
+    async Task DeleteEmployee(int id)
+    {
+        bool confirmed = await JSRuntime.InvokeAsync<bool>("confirm", "Are you sure you want to delete this employee?");
+        if (confirmed)
+        {
+            await Http.DeleteAsync($"api/employees/{id}");
+            employees = await Http.GetFromJsonAsync<List<Employee>>("api/employees");
+        }
+    }
+}

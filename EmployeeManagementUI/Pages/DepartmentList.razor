@@ -1,0 +1,67 @@
+﻿@page "/departments"
+@using EmployeeManagementUI.Model
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+
+<h3>Department List</h3>
+<button class="btn btn-primary" @onclick="CreateDepartment">Create New Department</button>
+
+@if (departments == null)
+{
+    <p><em>Loading...</em></p>
+}
+else if (departments.Count == 0)
+{
+    <p>No departments found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Location</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var dept in departments)
+            {
+                <tr>
+                    <td>@dept.departmentID</td>
+                    <td>@dept.name</td>
+                    <td>@dept.location</td>
+                    <td>
+                        <button class="btn btn-sm btn-warning" @onclick="@(() => EditDepartment(dept.departmentID))">Edit</button>
+                        <button class="btn btn-sm btn-danger" @onclick="@(() => DeleteDepartment(dept.departmentID))">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Department> departments = new List<Department>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        departments = await Http.GetFromJsonAsync<List<Department>>("api/departments");
+    }
+
+    void CreateDepartment() => NavigationManager.NavigateTo("/departmentform");
+
+    void EditDepartment(int id) => NavigationManager.NavigateTo($"/departmentform/{id}");
+
+    async Task DeleteDepartment(int id)
+    {
+        bool confirmed = await JSRuntime.InvokeAsync<bool>("confirm", "Are you sure?");
+        if (confirmed)
+        {
+            await Http.DeleteAsync($"api/departments/{id}");
+            departments = await Http.GetFromJsonAsync<List<Department>>("api/departments");
+        }
+    }
+}

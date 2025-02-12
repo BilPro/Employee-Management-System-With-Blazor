@@ -1,0 +1,47 @@
+﻿@page "/departmentform"
+@page "/departmentform/{id:int}"
+@using EmployeeManagementUI.Model
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<h3>@(isEdit ? "Edit Department" : "Create Department")</h3>
+
+<EditForm Model="department" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label>Name:</label>
+        <InputText class="form-control" @bind-Value="department.name" />
+    </div>
+    <div class="form-group">
+        <label>Location:</label>
+        <InputText class="form-control" @bind-Value="department.location" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</EditForm>
+
+@code {
+    [Parameter] public int? id { get; set; }
+    private Department department = new Department();
+    private bool isEdit = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (id.HasValue)
+        {
+            isEdit = true;
+            department = await Http.GetFromJsonAsync<Model.Department>($"api/departments/{id.Value}");
+        }
+    }
+
+    async Task HandleValidSubmit()
+    {
+        if (isEdit)
+            await Http.PutAsJsonAsync($"api/departments/{department.departmentID}", department);
+        else
+            await Http.PostAsJsonAsync("api/departments", department);
+
+        NavigationManager.NavigateTo("/departments");
+    }
+}

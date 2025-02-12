@@ -1,0 +1,42 @@
+﻿@page "/attendanceform"
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<h3>Mark Attendance</h3>
+
+<EditForm Model="attendance" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label>Employee ID:</label>
+        <InputNumber class="form-control" @bind-Value="attendance.employeeID" />
+    </div>
+    <div class="form-group">
+        <label>Date:</label>
+        <InputDate class="form-control" @bind-Value="attendance.date" />
+    </div>
+    <div class="form-group">
+        <label>Status:</label>
+        <InputText class="form-control" @bind-Value="attendance.status" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</EditForm>
+
+@code {
+    private AttendanceRecord attendance = new AttendanceRecord();
+
+    async Task HandleValidSubmit()
+    {
+        await Http.PostAsJsonAsync("api/attendance/mark", attendance);
+        NavigationManager.NavigateTo("/attendance");
+    }
+
+    public class AttendanceRecord
+    {
+        public int attendanceID { get; set; }
+        public int employeeID { get; set; }
+        public DateTime date { get; set; }
+        public string status { get; set; }
+    }
+}

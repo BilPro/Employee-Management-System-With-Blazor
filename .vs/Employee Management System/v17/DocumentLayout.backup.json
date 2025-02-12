@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Docs\\Projects\\Employee Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\controllers\\missingattendancerequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\controllers\\missingattendancerequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7561221F-2B7A-457A-B00C-460268C0131E}|EmployeeManagementUI\\EmployeeManagementUI.csproj|e:\\docs\\projects\\employee management system\\employeemanagementui\\pages\\missingattendanceform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7561221F-2B7A-457A-B00C-460268C0131E}|EmployeeManagementUI\\EmployeeManagementUI.csproj|solutionrelative:employeemanagementui\\pages\\missingattendanceform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7561221F-2B7A-457A-B00C-460268C0131E}|EmployeeManagementUI\\EmployeeManagementUI.csproj|e:\\docs\\projects\\employee management system\\employeemanagementui\\pages\\missingattendancelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7561221F-2B7A-457A-B00C-460268C0131E}|EmployeeManagementUI\\EmployeeManagementUI.csproj|solutionrelative:employeemanagementui\\pages\\missingattendancelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MissingAttendanceRequestsController.cs",
+              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Controllers\\MissingAttendanceRequestsController.cs",
+              "RelativeDocumentMoniker": "Employee Management System\\Controllers\\MissingAttendanceRequestsController.cs",
+              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Controllers\\MissingAttendanceRequestsController.cs",
+              "RelativeToolTip": "Employee Management System\\Controllers\\MissingAttendanceRequestsController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T18:43:36.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MissingAttendanceForm.razor",
+              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\EmployeeManagementUI\\Pages\\MissingAttendanceForm.razor",
+              "RelativeDocumentMoniker": "EmployeeManagementUI\\Pages\\MissingAttendanceForm.razor",
+              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\EmployeeManagementUI\\Pages\\MissingAttendanceForm.razor",
+              "RelativeToolTip": "EmployeeManagementUI\\Pages\\MissingAttendanceForm.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T14:10:57.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MissingAttendanceList.razor",
+              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\EmployeeManagementUI\\Pages\\MissingAttendanceList.razor",
+              "RelativeDocumentMoniker": "EmployeeManagementUI\\Pages\\MissingAttendanceList.razor",
+              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\EmployeeManagementUI\\Pages\\MissingAttendanceList.razor",
+              "RelativeToolTip": "EmployeeManagementUI\\Pages\\MissingAttendanceList.razor",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T14:10:26.457Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
