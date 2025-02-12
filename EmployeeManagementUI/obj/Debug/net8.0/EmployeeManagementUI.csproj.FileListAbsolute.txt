@@ -619,6 +619,7 @@ E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.
 E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\EmployeeManagementUI.AssemblyInfo.cs
 E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\EmployeeManagementUI.csproj.CoreCompileInputs.cache
 E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\EmployeeManagementUI.MvcApplicationPartsAssemblyInfo.cache
+E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\EmployeeManagementUI.sourcelink.json
 E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.wasm
 E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm
@@ -1019,6 +1020,9 @@ E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.
 E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\compressed\ov3m6f988z-tptq2av103.gz
 E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\compressed\lxuhc0scer-lfu7j35m59.gz
 E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\compressed\2yg236ft1z-oyz0vx2fzb.gz
+E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\compressed\i9fsylq6w8-mkw5srlics.gz
+E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\compressed\mwxqfgz2x8-td7k2k1dck.gz
+E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\compressed\ppizpvsw1j-yzgsl5wgf6.gz
 E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\staticwebassets.build.json
 E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\staticwebassets.development.json
 E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
@@ -1034,6 +1038,3 @@ E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.
 E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\refint\EmployeeManagementUI.dll
 E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\EmployeeManagementUI.pdb
 E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\ref\EmployeeManagementUI.dll
-E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\compressed\i9fsylq6w8-p7uoocp0ls.gz
-E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\compressed\mwxqfgz2x8-zhfk12axun.gz
-E:\Docs\Projects\Employee Management System\EmployeeManagementUI\obj\Debug\net8.0\compressed\ppizpvsw1j-vvgj8rooeh.gz
