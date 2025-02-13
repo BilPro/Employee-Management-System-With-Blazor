@@ -3,44 +3,24 @@
   "WorkspaceRootPath": "E:\\Docs\\Projects\\Employee Management System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\services\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\services\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\services\\iattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\services\\iattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\repositories\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\repositories\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\repositories\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\repositories\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\model\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\model\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\model\\employeecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\model\\employeecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\controllers\\missingattendancerequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\controllers\\missingattendancerequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\services\\missingattendancerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\services\\missingattendancerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\services\\imissingattendancerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\services\\imissingattendancerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\repositories\\missingattendancerequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\repositories\\missingattendancerequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\repositories\\imissingattendancerequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\repositories\\imissingattendancerequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\model\\missingattendancerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,30 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\model\\logentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\model\\logentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|e:\\docs\\projects\\employee management system\\employee management system\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39E3514-15DB-4007-ADBD-44482350E4A3}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -91,230 +47,93 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AttendanceService.cs",
-              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Services\\AttendanceService.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\Services\\AttendanceService.cs",
-              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Services\\AttendanceService.cs",
-              "RelativeToolTip": "Employee Management System\\Services\\AttendanceService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAqwAwAAAAJAAAAAAAAAA==",
+              "Title": "MissingAttendanceRequestService.cs",
+              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Services\\MissingAttendanceRequestService.cs",
+              "RelativeDocumentMoniker": "Employee Management System\\Services\\MissingAttendanceRequestService.cs",
+              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Services\\MissingAttendanceRequestService.cs",
+              "RelativeToolTip": "Employee Management System\\Services\\MissingAttendanceRequestService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T08:22:28.793Z",
+              "WhenOpened": "2025-02-13T09:41:00.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IAttendanceService.cs",
-              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Services\\IAttendanceService.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\Services\\IAttendanceService.cs",
-              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Services\\IAttendanceService.cs",
-              "RelativeToolTip": "Employee Management System\\Services\\IAttendanceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Title": "IMissingAttendanceRequestService.cs",
+              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Services\\IMissingAttendanceRequestService.cs",
+              "RelativeDocumentMoniker": "Employee Management System\\Services\\IMissingAttendanceRequestService.cs",
+              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Services\\IMissingAttendanceRequestService.cs",
+              "RelativeToolTip": "Employee Management System\\Services\\IMissingAttendanceRequestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T08:21:46.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Attendance.cs",
-              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Model\\Attendance.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\Model\\Attendance.cs",
-              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Model\\Attendance.cs",
-              "RelativeToolTip": "Employee Management System\\Model\\Attendance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T08:09:58.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AttendanceRepository.cs",
-              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Repositories\\AttendanceRepository.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\Repositories\\AttendanceRepository.cs",
-              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Repositories\\AttendanceRepository.cs",
-              "RelativeToolTip": "Employee Management System\\Repositories\\AttendanceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T07:58:33.828Z",
+              "WhenOpened": "2025-02-13T09:39:48.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IAttendanceRepository.cs",
-              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Repositories\\IAttendanceRepository.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\Repositories\\IAttendanceRepository.cs",
-              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Repositories\\IAttendanceRepository.cs",
-              "RelativeToolTip": "Employee Management System\\Repositories\\IAttendanceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Title": "MissingAttendanceRequestRepository.cs",
+              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Repositories\\MissingAttendanceRequestRepository.cs",
+              "RelativeDocumentMoniker": "Employee Management System\\Repositories\\MissingAttendanceRequestRepository.cs",
+              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Repositories\\MissingAttendanceRequestRepository.cs",
+              "RelativeToolTip": "Employee Management System\\Repositories\\MissingAttendanceRequestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T07:57:06.292Z",
+              "WhenOpened": "2025-02-13T09:37:35.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Department.cs",
-              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Model\\Department.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\Model\\Department.cs",
-              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Model\\Department.cs",
-              "RelativeToolTip": "Employee Management System\\Model\\Department.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IMissingAttendanceRequestRepository.cs",
+              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Repositories\\IMissingAttendanceRequestRepository.cs",
+              "RelativeDocumentMoniker": "Employee Management System\\Repositories\\IMissingAttendanceRequestRepository.cs",
+              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Repositories\\IMissingAttendanceRequestRepository.cs",
+              "RelativeToolTip": "Employee Management System\\Repositories\\IMissingAttendanceRequestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T07:54:04.281Z",
+              "WhenOpened": "2025-02-13T09:36:53.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AttendanceController.cs",
-              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Controllers\\AttendanceController.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\Controllers\\AttendanceController.cs",
-              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Controllers\\AttendanceController.cs",
-              "RelativeToolTip": "Employee Management System\\Controllers\\AttendanceController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA8wBYAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T19:53:29.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "MissingAttendanceRequestsController.cs",
               "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Controllers\\MissingAttendanceRequestsController.cs",
               "RelativeDocumentMoniker": "Employee Management System\\Controllers\\MissingAttendanceRequestsController.cs",
               "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Controllers\\MissingAttendanceRequestsController.cs",
               "RelativeToolTip": "Employee Management System\\Controllers\\MissingAttendanceRequestsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T19:53:48.292Z",
+              "WhenOpened": "2025-02-13T09:31:59.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "MissingAttendanceRequest.cs",
               "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Model\\MissingAttendanceRequest.cs",
               "RelativeDocumentMoniker": "Employee Management System\\Model\\MissingAttendanceRequest.cs",
               "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Model\\MissingAttendanceRequest.cs",
               "RelativeToolTip": "Employee Management System\\Model\\MissingAttendanceRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T07:56:04.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DepartmentsController.cs",
-              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Controllers\\DepartmentsController.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\Controllers\\DepartmentsController.cs",
-              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Controllers\\DepartmentsController.cs",
-              "RelativeToolTip": "Employee Management System\\Controllers\\DepartmentsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T19:53:39.787Z",
+              "WhenOpened": "2025-02-13T09:31:47.328Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "EmployeeContext.cs",
-              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Model\\EmployeeContext.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\Model\\EmployeeContext.cs",
-              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Model\\EmployeeContext.cs",
-              "RelativeToolTip": "Employee Management System\\Model\\EmployeeContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T18:04:53.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EmployeesController.cs",
-              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Controllers\\EmployeesController.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\Controllers\\EmployeesController.cs",
-              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Controllers\\EmployeesController.cs",
-              "RelativeToolTip": "Employee Management System\\Controllers\\EmployeesController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T14:11:34.318Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Repositories\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\Repositories\\EmployeeRepository.cs",
-              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Repositories\\EmployeeRepository.cs",
-              "RelativeToolTip": "Employee Management System\\Repositories\\EmployeeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T14:08:59.848Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IEmployeeRepository.cs",
-              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Repositories\\IEmployeeRepository.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\Repositories\\IEmployeeRepository.cs",
-              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Repositories\\IEmployeeRepository.cs",
-              "RelativeToolTip": "Employee Management System\\Repositories\\IEmployeeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T14:07:39.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Program.cs",
               "RelativeDocumentMoniker": "Employee Management System\\Program.cs",
               "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Program.cs",
               "RelativeToolTip": "Employee Management System\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAD0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T09:44:16.619Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Services\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\Services\\EmployeeService.cs",
-              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Services\\EmployeeService.cs",
-              "RelativeToolTip": "Employee Management System\\Services\\EmployeeService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T14:35:53.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "nlog.config",
-              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\nlog.config",
-              "RelativeDocumentMoniker": "Employee Management System\\nlog.config",
-              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\nlog.config",
-              "RelativeToolTip": "Employee Management System\\nlog.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-02-12T18:05:33.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LogEntry.cs",
-              "DocumentMoniker": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Model\\LogEntry.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\Model\\LogEntry.cs",
-              "ToolTip": "E:\\Docs\\Projects\\Employee Management System\\Employee Management System\\Model\\LogEntry.cs",
-              "RelativeToolTip": "Employee Management System\\Model\\LogEntry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T18:05:27.899Z"
             }
           ]
         }
